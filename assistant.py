@@ -64,7 +64,12 @@ def main():
                 webbrowser.open("http://www.youtube.com/")
             elif "open google map" in command:
                 respond("opening google map")
-                webbrowser.open("https://www.google.com/maps")    
+                webbrowser.open("https://www.google.com/maps")  
+                
+            elif "open youtube" in command:
+                respond("opening youtube")
+                webbrowser.open("https://www.youtube.com/")  
+                  
             elif "exit" in command:
                 respond("Goodbye!")
                 break
