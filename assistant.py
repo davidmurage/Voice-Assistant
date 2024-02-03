@@ -69,6 +69,10 @@ def main():
             elif "open youtube" in command:
                 respond("opening youtube")
                 webbrowser.open("https://www.youtube.com/")  
+                
+            elif "open whatsapp web" in command:
+                respond("opening whatsapp web")
+                webbrowser.open('https://web.whatsapp.com/')    
                   
             elif "exit" in command:
                 respond("Goodbye!")
