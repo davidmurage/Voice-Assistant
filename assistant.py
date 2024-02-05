@@ -72,7 +72,11 @@ def main():
                 
             elif "open whatsapp web" in command:
                 respond("opening whatsapp web")
-                webbrowser.open('https://web.whatsapp.com/')    
+                webbrowser.open('https://web.whatsapp.com/') 
+                 
+            elif "Open kilimall" in command:
+                respond("Opening kilimall")
+                webbrowser.open("https://www.kilimall.co.ke/new/flash-sales?gad_source=1&gclid=CjwKCAiAiP2tBhBXEiwACslfnj-UTlgwUMdATQXBZldKYAAuPgHYYAe_5XD5tCPoDfJYcgbaw6XKWxoC4yUQAvD_BwE")      
                   
             elif "exit" in command:
                 respond("Goodbye!")
